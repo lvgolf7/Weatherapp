@@ -1,4 +1,4 @@
-const apiKey = "e74bb0e3ebaecd7be3aeb915fe0e4bf3";
+const apiKey = "";
 const apiUrl = (cityId) =>
   `https://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=${apiKey}&units=imperial`;
 
